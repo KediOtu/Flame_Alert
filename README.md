@@ -15,7 +15,16 @@
 
 -For text(s), editing should be done as follows:
 ![alt text](/images/tutorial2.png)
-
+![alt text](/images/tutorial3.png)
 
 -For the buzzer:
 ![alt text](/images/tutorial4.png)
+
+-Then, please set the circuit and upload the code. While circuit is powered, open your phone's bluetooth and then connect it with HC-05. This part is depends on your phone's model.  If it asks you a pin while connecting to HC-05, probably the pin is 0000 or 1234.
+
+-Open the application. Choose the panel you did. Select "Connect" option. And Connect to HC-05.
+![alt text](/images/tutorial5.png)
+![alt text](/images/tutorial6.png)
+![alt text](/images/tutorial7.png)
+
+-Lastly, back to the menu and select the panel. Then run it. You can test it with a lighter. When flame detected, the text will change and buzzer start to buzz!
