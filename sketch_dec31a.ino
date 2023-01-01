@@ -2,7 +2,7 @@
 SoftwareSerial BTSerial(10, 11); // RX, TX
 String text;
 String text2;
-int digitalPin = 2; 
+int digitalPin = 2; //flame sensor digital pin
 int digitalVal; 
 int Data;
 
@@ -14,11 +14,11 @@ void setup(){
 void loop(){ 
 
   digitalVal = digitalRead(digitalPin); 
-  if(digitalVal == HIGH) // Eğer Alev tespit edilirse
+  if(digitalVal == HIGH) // if flame is detected
   {
     text="*y !!FIRE ALERT!! *";
     text2="*S ses*";
-    BTSerial.print(text);
+    BTSerial.print(text); //we send the text via bluetooth
     BTSerial.print(text2);
   }
   else
