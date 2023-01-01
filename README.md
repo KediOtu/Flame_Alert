@@ -27,4 +27,4 @@
 ![alt text](/images/tutorial6.png)
 ![alt text](/images/tutorial7.png)
 
--Lastly, back to the menu and select the panel. Then run it. You can test it with a lighter. When flame detected, the text will change and the buzzer start to buzz!
+-Lastly, back to the menu and select the panel. Then run it. You can test it with a lighter. When flame detected, the text will change and the buzzer will start to buzz!
